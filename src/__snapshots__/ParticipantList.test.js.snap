@@ -1,5 +1,6 @@
 exports[`<ParticipantList /> renders this UI as expected 1`] = `
-<div>
+<div
+  className="list">
   <div>
      
     Koren Templeton

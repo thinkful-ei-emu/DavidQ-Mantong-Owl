@@ -1,0 +1,7 @@
+exports[`<Log /> renders this UI as expected 1`] = `
+<span>
+  David
+  Tue, 25 Jun 2019 20:44:31 GMT
+  has left
+</span>
+`;

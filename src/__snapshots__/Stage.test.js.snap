@@ -1,0 +1,21 @@
+exports[`<Stage/> renders this UI as expected 1`] = `
+<div
+  className="Stage">
+  <div
+    className="onStage">
+    <p>
+      Koren Templeton
+    </p>
+    <img
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1" />
+  </div>
+  <div
+    className="onStage">
+    <p>
+      Ashla Attwool
+    </p>
+    <img
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1" />
+  </div>
+</div>
+`;

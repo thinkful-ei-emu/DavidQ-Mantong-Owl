@@ -1,5 +1,13 @@
 .Stage{
-    min-width: 75%;
+    width: 75%;
     background-color: grey;
     height: 100%;
+    display:grid;
+    grid-column: auto auto;
+}
+.onStage{
+  /*  */
+}
+.onStage>img{
+  border-radius:100%;
 }

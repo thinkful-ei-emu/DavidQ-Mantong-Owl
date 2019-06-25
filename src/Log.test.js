@@ -2,18 +2,18 @@ import ReactDOM from 'react-dom';
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Stage from './Stage'
-describe('<Stage/>', () => {
+import Log from './Log';
+describe('<Log />', () => {
   //smoke testing
   it ('render without crashing', ()=> {
       const div =document.createElement('div');
-      ReactDOM.render(<Stage/>,div);
+      ReactDOM.render(<Log name="David" action="has left" />,div);
 
       ReactDOM.unmountComponentAtNode(div);
   });
   //snapshot testing
   it ('renders this UI as expected', ()=>{
-      const tree = renderer.create(<Stage />).toJSON();
+      const tree = renderer.create(<Log name="David" action="has left" />).toJSON();
       expect(tree).toMatchSnapshot();     
   });
 });
