@@ -1,0 +1,49 @@
+exports[`<ParticipantList /> renders this UI as expected 1`] = `
+<div>
+  <div>
+     
+    Koren Templeton
+    <img
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1" />
+    <p>
+      on stage
+    </p>
+  </div>
+  <div>
+     
+    Caty Flucker
+    <img
+      src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1" />
+    <p>
+      left
+    </p>
+  </div>
+  <div>
+     
+    Axe Kubicka
+    <img
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1" />
+    <p>
+      left
+    </p>
+  </div>
+  <div>
+     
+    Frank Runciman
+    <img
+      src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1" />
+    <p>
+      left
+    </p>
+  </div>
+  <div>
+     
+    Ashla Attwool
+    <img
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1" />
+    <p>
+      on stage
+    </p>
+  </div>
+</div>
+`;

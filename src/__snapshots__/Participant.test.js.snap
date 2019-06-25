@@ -1,0 +1,11 @@
+exports[`<Participant /> renders this UI as expected 1`] = `
+<div>
+   
+  Koren Templeton
+  <img
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1" />
+  <p>
+    on stage
+  </p>
+</div>
+`;
