@@ -1,0 +1,9 @@
+.par{
+  width:80%;
+  border: 2px solid black;
+
+}
+.par>img{
+  height: 25px;
+  border: radius 10;
+}

@@ -3,5 +3,5 @@ import STORE from './STORE';
 
 export default function Log(props){
   let when = new Date().toLocaleTimeString();
-  return(<span>{props.name} {when}{props.action}{props.icon}</span>);
+  return(<p>{props.name} {when}{props.action}{props.icon}</p>);
 }

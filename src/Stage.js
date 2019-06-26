@@ -15,7 +15,7 @@ export default function Stage (){
  )
  
     return (
-        <div className="Stage">
+        <div className="Stage container col-3">
             {onStage} 
         </div>
     )

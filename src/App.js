@@ -9,9 +9,11 @@ import Log from './Log';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <ParticipantList participants = {STORE}/>
-        <Log name="David" action="hello"/>
+      <div className="App container ">
+        <div className="col leftPane">
+          <ParticipantList className="col-full" participants = {STORE}/>
+          <Log name="David" action="hello"/>
+        </div>
         <Stage />
 
       </div>

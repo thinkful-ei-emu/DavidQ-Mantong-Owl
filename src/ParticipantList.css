@@ -1,6 +1,9 @@
 .list{
- width:15%;
  height:100%;
  overflow: scroll;
- display:inline;
+ display:grid;
+ grid-template-columns: auto auto auto
+}
+.col-full{
+  grid-column: span 3;
 }

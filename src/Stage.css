@@ -1,11 +1,11 @@
 .Stage{
-    width: 75%;
+    width: 100%;
     background-color: grey;
     height: 100%;
-    display:grid;
-    grid-column: auto auto;
 }
 .onStage{
+  grid-column: span 1;
+  width:50%;
   /*  */
 }
 .onStage>img{
