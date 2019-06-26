@@ -2,9 +2,12 @@
     width: 100%;
     background-color: grey;
     height: 100%;
+    align-content: center;
+    justify-content: center;
+    grid-column-gap: 25%;
 }
 .onStage{
-  grid-column: span 1;
+  grid-column: span 2;
   width:50%;
   /*  */
 }

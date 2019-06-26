@@ -7,7 +7,7 @@ export default function ParticipantList(props){
     return (<Participant key={index} name={person.name} avatar = {person.avatar} inSession = {person.inSession} onStage={person.onStage} />); 
   });
 
-  return(<div className="list col-full">
+  return(<div className="list col-full container">
 {people}
   </div>);
 } 
